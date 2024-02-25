@@ -1,0 +1,129 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h3{
+            color: rgb(65, 45, 1);
+        }
+        h1{
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav a {
+            color: #fff;
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 100%;
+
+        }
+        a:hover {
+            background-color: rgb(202, 202, 202);
+            color: black;
+            
+        }
+        .container {
+            margin: 10px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        aside {
+            float: left;
+            width: 25%;
+            margin-right: 20px;
+            text-align:left;
+            padding-left: 2%;
+            padding: 40px;
+            margin-bottom: 0%;
+        }
+        aside p {
+            margin-bottom: 20px;
+            margin-top: 30px;
+            text-align: justify;
+        }
+        .mi-aside{
+            background-image: url("Green.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        article {
+            float: left;
+            width: calc(70% - 20px);
+            margin-bottom: 0px;
+            margin-top: 30px;
+        }
+        article h1 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 25px;
+            padding-top: 3%;
+            padding-bottom: 1%;
+            text-align: center;
+            clear: both;
+        }
+        .section{
+            display: inline-block;
+            padding-left: 3%;
+        }
+        .section2{
+     
+            display: inline-block;
+            margin-left: 15%;
+        }
+        .section3{
+            display: inline-block;
+            margin-left: 15%;
+        }
+        .section4{
+            display: inline-block;
+            margin-left: 15%;
+        }
+        #alimentacion{
+            text-align: justify;
+        }
+        .naranja{
+            color:rgb(221, 119, 2);
+        }
+        .rojo{
+            color: red;
+        }
+        .verde{
+            color:green;
+        }
+        .amarillo{
+            color: rgb(184, 184, 7);
+        }
+        .art3{
+            margin-left: 1%;
+            text-align: justify;
+            padding-bottom: 2%;
+        }
+        .art3-img{
+            float: left;
+            padding-right: 0.5%;
+        }
+        .libreta{
+            margin-top: 20%;
+            margin-left: 20%;
+
+        }
+
